@@ -1,0 +1,113 @@
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csprojResolveAssemblyReference.cache
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.Cache
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csprojAssemblyReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.CoreCompileInputs.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\Google.Protobuf.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\Google.Protobuf.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\linq2db.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.CopyComplete
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Login.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.ResolveComReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\itextsharp.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\bin\Debug\itextsharp.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Entrada.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Salidas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.TicketsVentas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\Google.Protobuf.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\itextsharp.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\Google.Protobuf.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\itextsharp.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\linq2db.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.csprojAssemblyReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.csproj.ResolveComReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.Entrada.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.Login.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.Salidas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto_de_ventas.TicketsVentas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.csproj.CoreCompileInputs.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.csproj.CopyComplete
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,18\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\Google.Protobuf.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\itextsharp.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\Google.Protobuf.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\itextsharp.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csprojAssemblyReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.ResolveComReference.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Entrada.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Login.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Salidas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.TicketsVentas.resources
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.CoreCompileInputs.cache
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.CopyComplete
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Freyre Vazquez\Desktop\Punto-de-ventas-dise-o-C\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csprojAssemblyReference.cache
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.ResolveComReference.cache
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\Google.Protobuf.dll
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\itextsharp.dll
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\Google.Protobuf.xml
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\itextsharp.xml
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\linq2db.xml
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Entrada.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Login.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.Salidas.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto_de_ventas.TicketsVentas.resources
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.cache
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.CoreCompileInputs.cache
+C:\Users\52618\Desktop\Punto-de-ventas\Punto-de-ventas\Punto de ventas1,19\Punto de ventas\obj\Debug\Punto de ventas.csproj.CopyComplete
