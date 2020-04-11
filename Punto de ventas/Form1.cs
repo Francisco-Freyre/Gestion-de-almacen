@@ -173,57 +173,6 @@ namespace Punto_de_ventas
         //Codigo de clientes ######################################################
         #region
 
-        private void button_Clientes_Click(object sender, EventArgs e)
-        {
-            restablecer();
-            //llamo a la ppagina 1
-            tabControl1.SelectedIndex = 1;
-            if (role != "Admin")
-            {
-                radioButton_PagosDeudas.Checked = true;
-                radioButton_IngresarCliente.Enabled = false;
-                //button_Clientes.Enabled = false;
-                //button_Ventas.Enabled = true;
-               // button_Productos.Enabled = true;
-                //button_Dpto.Enabled = false;
-                //button_Compras.Enabled = false;
-                //button_Config.Enabled = false;
-                //button_Corte.Enabled = false;
-                button_EliminarClientes.Enabled = false;
-                button_Cancelar.Enabled = false;
-            }
-            else
-            {
-                //button_Clientes.Enabled = false;
-                //button_Ventas.Enabled = true;
-                //button_Productos.Enabled = true;
-                //button_Dpto.Enabled = true;
-                //button_Compras.Enabled = true;
-                //button_Config.Enabled = true;
-                //button_Corte.Enabled = true;
-                //button_EliminarClientes.Enabled = true;
-                button_Cancelar.Enabled = true;
-            }
-
-        }
-
-        private void button_Clientes_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == Convert.ToChar(Keys.F2))
-            {
-                restablecer();
-                //llamo a la ppagina 1
-                tabControl1.SelectedIndex = 1;
-                //button_Clientes.Enabled = false;
-                //button_Ventas.Enabled = true;
-                //button_Productos.Enabled = true;
-                //button_Compras.Enabled = true;
-                //button_Dpto.Enabled = true;
-                //button_Compras.Enabled = true;
-            }
-
-        }
-
         private void radioButton_IngresarCliente_CheckedChanged(object sender, EventArgs e)
         {
             radioButton_IngresarCliente.ForeColor = Color.DarkCyan;
@@ -376,70 +325,6 @@ namespace Punto_de_ventas
             }
         }
 
-        private void guardarCliente()
-        {
-            if (textBox_Id.Text == "")
-            {
-                label_Id.Text = "Ingrese el ID";
-                label_Id.ForeColor = Color.Red;
-                textBox_Id.Focus();
-            }
-            else
-            {
-                if (textBox_Nombre.Text == "")
-                {
-                    label_Nombre.Text = "Ingrese el Nombre";
-                    label_Nombre.ForeColor = Color.Red;
-                    textBox_Nombre.Focus();
-                }
-                else
-                {
-                    if (textBox_Apellido.Text == "")
-                    {
-                        label_Apellido.Text = "Ingrese el apellido";
-                        label_Apellido.ForeColor = Color.Red;
-                        textBox_Apellido.Focus();
-                    }
-                    else
-                    {
-                        if (textBox_Direccion.Text == "")
-                        {
-                            label_Direccion.Text = "Ingrese el Telefono";
-                            label_Direccion.ForeColor = Color.Red;
-                            textBox_Direccion.Focus();
-                        }
-                        else
-                        {
-                            if (textBox_Telefono.Text == "")
-                            {
-                                label_Telefono.Text = "Ingrese el Limite de credito ('0' es Sin Limite )";
-                                label_Telefono.ForeColor = Color.Red;
-                                textBox_Telefono.Focus();
-                            }
-                            else
-                            {
-                                string ID = textBox_Id.Text;
-                                string Nombre = textBox_Nombre.Text;
-                                string Apellido = textBox_Apellido.Text;
-                                string Telefono = textBox_Direccion.Text;
-                                int Limite = Convert.ToInt16(textBox_Telefono.Text);
-
-                                if (accion == "insert")
-                                {
-                                    ClassModels.cliente.insertarCliente(ID, Nombre, Apellido, Limite, Telefono);
-                                }
-                                if (accion == "update")
-                                {
-                                    ClassModels.cliente.updateCliente(ID, Nombre, Apellido, Limite, Telefono, idCliente);
-                                }
-                                restablecer();
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         private void guardarPago()
         {
             if (textBox_PagoscCliente.Text == "")
@@ -453,64 +338,6 @@ namespace Punto_de_ventas
                 ClassModels.cliente.actualizaRep(deudaActual, pago, idCliente, usuario);
                 restablecer();
             }
-        }
-
-        private void restablecer()
-        {
-            paginas = 1;
-            textBox_Id.Text = "";
-            textBox_Nombre.Text = "";
-            textBox_Apellido.Text = "";
-            textBox_Direccion.Text = "";
-            textBox_Telefono.Text = "";
-            textBox_PagoscCliente.Text = "";
-            textBox_Id.Focus();
-            textBox_BuscarCliente.Text = "";
-            label_Id.ForeColor = Color.SlateGray;
-            label_Nombre.ForeColor = Color.SlateGray;
-            label_Apellido.ForeColor = Color.SlateGray;
-            label_Direccion.ForeColor = Color.SlateGray;
-            label_Telefono.ForeColor = Color.SlateGray;
-            label_PagoCliente.ForeColor = Color.SlateGray;
-            label_PagoCliente.Text = "Pagos de deudas";
-            radioButton_IngresarCliente.ForeColor = Color.DarkCyan;
-            accion = "insert";
-            idCliente = 0;
-            IdRegistro = 0;
-            label_NombreRB.Text = "";
-            label_ApellidoRB.Text = "";
-            label_ClienteSA.Text = "0";
-            label_ClienteUP.Text = "0";
-            label_FechaPG.Text = "";
-            if (role != "Admin")
-            {
-                radioButton_PagosDeudas.Checked = true;
-                radioButton_IngresarCliente.Enabled = false;
-                //button_Clientes.Enabled = false;
-                //button_Ventas.Enabled = true;
-                //button_Productos.Enabled = true;
-                //button_Dpto.Enabled = false;
-                //button_Compras.Enabled = false;
-                //button_Config.Enabled = false;
-                //button_Corte.Enabled = false;
-                button_EliminarClientes.Enabled = false;
-                button_Cancelar.Enabled = false;
-            }
-            else
-            {
-                radioButton_IngresarCliente.Checked = true;
-                //button_Clientes.Enabled = false;
-                //button_Ventas.Enabled = true;
-                //button_Productos.Enabled = true;
-                //button_Dpto.Enabled = true;
-                //button_Compras.Enabled = true;
-                //button_Config.Enabled = true;
-                //button_Corte.Enabled = true;
-                button_EliminarClientes.Enabled = true;
-                button_Cancelar.Enabled = true;
-            }
-            ClassModels.cliente.getClienteReporte(dataGridView_ClienteReporte, idCliente);
-            new Paginador(dataGridView_Cliente, label_PaginasCliente, paginas, 0);
         }
 
         private void button_Cancelar_Click(object sender, EventArgs e)
@@ -540,12 +367,6 @@ namespace Punto_de_ventas
             textBox_Direccion.Text = Convert.ToString(dataGridView_Cliente.CurrentRow.Cells[4].Value);
             textBox_Telefono.Text = Convert.ToString(dataGridView_Cliente.CurrentRow.Cells[5].Value);
             ClassModels.cliente.getClienteReporte(dataGridView_ClienteReporte, idCliente);
-            IdRegistro = Convert.ToInt16(dataGridView_ClienteReporte.CurrentRow.Cells[0].Value);
-            label_NombreRB.Text = Convert.ToString(dataGridView_ClienteReporte.CurrentRow.Cells[1].Value);
-            label_ApellidoRB.Text = Convert.ToString(dataGridView_ClienteReporte.CurrentRow.Cells[2].Value);
-            label_ClienteSA.Text = Convert.ToString(dataGridView_ClienteReporte.CurrentRow.Cells[3].Value);
-            label_ClienteUP.Text = Convert.ToString(dataGridView_ClienteReporte.CurrentRow.Cells[5].Value);
-            label_FechaPG.Text = Convert.ToString(dataGridView_ClienteReporte.CurrentRow.Cells[6].Value);
         }
         private void button_EliminarClientes_Click(object sender, EventArgs e)
         {
@@ -887,7 +708,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        // Codigo de inventario ##############################################
+        // Codigo de inventario ###############################################
         #region
         private void button_Productos_Click(object sender, EventArgs e)
         {
@@ -958,7 +779,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo reporte de inventarios ######################################################
+        //Codigo reporte de inventarios #######################################
         #region
 
 
@@ -1006,7 +827,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de ventas #############################################
+        //Codigo de ventas ####################################################
         #region
 
         private void button_Ventas_Click(object sender, EventArgs e)
@@ -1266,7 +1087,7 @@ namespace Punto_de_ventas
         #endregion
 
 
-        //Codigo de busqueda en ventana ventas ###############################################3
+        //Codigo de busqueda en ventana ventas ################################
         #region
 
         private void button_BuscarProducto_Click(object sender, EventArgs e)
@@ -1352,7 +1173,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de CONFIGURACION ###############################################3
+        //Codigo de CONFIGURACION #############################################
         #region
 
         private void button_Config_Click(object sender, EventArgs e)
@@ -1368,7 +1189,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de USUARIOS ###############################################3
+        //Codigo de USUARIOS ##################################################
         #region
 
         private void buttonUsuarios_Click(object sender, EventArgs e)
@@ -1595,7 +1416,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de CAJAS ###############################################3
+        //Codigo de CAJAS #####################################################
         #region
 
         private Caja objectCaja;
@@ -1728,7 +1549,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de Inventario ###############################################3
+        //Codigo de Inventario ################################################
         #region
 
         private List<Label> labelProductos;
@@ -2156,7 +1977,7 @@ namespace Punto_de_ventas
             ticket.Show();
         }
 
-        //Codigo de Corte ###############################################3
+        //Codigo de Corte #####################################################
         #region
 
 
@@ -2225,7 +2046,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de Promociones ###############################################3
+        //Codigo de Promociones ###############################################
         #region
         private void buttonGuardarPromo_Click(object sender, EventArgs e)
         {
@@ -2317,7 +2138,7 @@ namespace Punto_de_ventas
 
         #endregion
 
-        //Codigo de Merma ###############################################3
+        //Codigo de Merma #####################################################
         #region
         private void buttonAgregar_Merma_Click(object sender, EventArgs e)
         {
@@ -2370,7 +2191,7 @@ namespace Punto_de_ventas
         }
         #endregion
 
-        //Codigo de productos varios ###########################################
+        //Codigo de productos varios ##########################################
         #region
 
         private void buttonF5Varios_Click(object sender, EventArgs e)
@@ -2641,6 +2462,100 @@ namespace Punto_de_ventas
             buttonReportes.Enabled = true;
             buttonUsuarios.Enabled = true;
             buttonPersonal.Enabled = true;
+        }
+        #endregion
+
+        //Codigo de Personal ##################################################
+        #region
+        private void buttonPersonal_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 5;
+            //RestablecerProductos();
+            buttonPersonal.Enabled = false;
+            buttonArticulos.Enabled = true;
+            buttonEntradas.Enabled = true;
+            buttonSalidas.Enabled = true;
+            buttonReportes.Enabled = true;
+            buttonUsuarios.Enabled = true;     
+        }
+
+        private void guardarCliente()
+        {
+            if (textBoxIDPersonal.Text == "")
+            {
+                label_Id.Text = "Ingrese el ID";
+                label_Id.ForeColor = Color.Red;
+                textBoxIDPersonal.Focus();
+            }
+            else
+            {
+                if (textBoxNombrePersonal.Text == "")
+                {
+                    label_Nombre.Text = "Ingrese el Nombre";
+                    label_Nombre.ForeColor = Color.Red;
+                    textBoxNombrePersonal.Focus();
+                }
+                else
+                {
+                    if (textBoxApellidoPersonal.Text == "")
+                    {
+                        label_Apellido.Text = "Ingrese el apellido";
+                        label_Apellido.ForeColor = Color.Red;
+                        textBoxApellidoPersonal.Focus();
+                    }
+                    else
+                    {
+                        if (textBoxDireccionPersonal.Text == "")
+                        {
+                            label_Direccion.Text = "Ingrese la direccion";
+                            label_Direccion.ForeColor = Color.Red;
+                            textBoxDireccionPersonal.Focus();
+                        }
+                        else
+                        {
+                                string ID = textBoxIDPersonal.Text;
+                                string Nombre = textBoxNombrePersonal.Text;
+                                string Apellido = textBoxApellidoPersonal.Text;
+                                string Telefono = textBoxDireccionPersonal.Text;
+
+                                if (accion == "insert")
+                                {
+                                    ClassModels.cliente.insertarCliente(ID, Nombre, Apellido, Telefono);
+                                }
+                                if (accion == "update")
+                                {
+                                    ClassModels.cliente.updateCliente(ID, Nombre, Apellido, Telefono, idCliente);
+                                }
+                                restablecer();
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        private void restablecer()
+        {
+            paginas = 1;
+            ClassModels.cliente.buscarCliente(dataGridViewPersonal, "", 1,1);
+            textBoxIDPersonal.Text = "";
+            textBoxNombrePersonal.Text = "";
+            textBoxApellidoPersonal.Text = "";
+            textBoxDireccionPersonal.Text = "";
+            textBox_Id.Focus();
+            textBox_BuscarCliente.Text = "";
+            label_Id.ForeColor = Color.SlateGray;
+            label_Nombre.ForeColor = Color.SlateGray;
+            label_Apellido.ForeColor = Color.SlateGray;
+            label_Direccion.ForeColor = Color.SlateGray;
+            accion = "insert";
+            idCliente = 0;
+            IdRegistro = 0;
+        }
+
+        private void buttonGuardarPersonal_Click(object sender, EventArgs e)
+        {
+            guardarCliente();
         }
         #endregion
     }

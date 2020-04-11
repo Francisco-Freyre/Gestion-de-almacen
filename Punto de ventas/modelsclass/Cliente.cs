@@ -20,7 +20,7 @@ namespace Punto_de_ventas.modelsclass
                         select c;
             return query.ToList();
         }
-        public void insertarCliente(string id, string nombre, string apellido, int limite, string telefono)
+        public void insertarCliente(string id, string nombre, string apellido, string telefono)
         {
             int pos, idCliente;
             using (var db = new Conexion())
@@ -36,7 +36,7 @@ namespace Punto_de_ventas.modelsclass
                 pos = cliente.Count;
                 pos--;
                 idCliente = cliente[pos].IdPersonal;
-                db.Insert(new ReportesClientes()
+                /*db.Insert(new ReportesClientes()
                 {
                     IdCliente = idCliente,
                     SaldoActual="$0.00",
@@ -44,7 +44,7 @@ namespace Punto_de_ventas.modelsclass
                     UltimoPago="$0.00",
                     FechaPago="Sin fecha",
                     ID=id
-                });
+                });*/
             }
         }
 
@@ -61,12 +61,11 @@ namespace Punto_de_ventas.modelsclass
                 query = from c in Cliente where c.ID.StartsWith(campo) || c.Nombre.StartsWith(campo) 
                         || c.Apellido.StartsWith(campo) select c;
             }
-            DataGridView.DataSource = query.Skip(inicio).Take(reg_por_pagina).ToList();
+            DataGridView.DataSource = query./*Skip(inicio).Take(reg_por_pagina).*/ToList();
             DataGridView.Columns[0].Visible = false;
 
             DataGridView.Columns[1].DefaultCellStyle.BackColor = Color.WhiteSmoke;
             DataGridView.Columns[3].DefaultCellStyle.BackColor = Color.WhiteSmoke;
-            DataGridView.Columns[5].DefaultCellStyle.BackColor = Color.WhiteSmoke;
         }
 
         public void buscarProductoCliente(DataGridView DataGridView, int campo, int num_pagina, int reg_por_pagina)
@@ -105,7 +104,7 @@ namespace Punto_de_ventas.modelsclass
             dataGridView.Columns[0].Visible = false;
         }
 
-        public void updateCliente(string id, string nombre, string apellido, int limite, string telefono, 
+        public void updateCliente(string id, string nombre, string apellido, string telefono, 
             int idCliente)
         {
             Cliente.Where(c => c.IdPersonal == idCliente)
@@ -115,14 +114,14 @@ namespace Punto_de_ventas.modelsclass
                 .Set(c => c.Telefono, telefono)
                 .Update();
             reporte = getReporte(idCliente);
-            ReportesClientes.Where(r => r.IdRegistro == reporte[0].IdRegistro)
+            /*ReportesClientes.Where(r => r.IdRegistro == reporte[0].IdRegistro)
                 .Set(r => r.IdCliente, reporte[0].IdCliente)
                 .Set(r => r.SaldoActual, reporte[0].SaldoActual)
                 .Set(r => r.FechaActual, reporte[0].FechaActual)
                 .Set(r => r.UltimoPago, reporte[0].UltimoPago)
                 .Set(r => r.FechaPago, reporte[0].FechaPago)
                 .Set(r => r.ID, id)
-                .Update();
+                .Update();*/
         }
 
         public List<ReportesClientes> getReporte(int idCliente)
@@ -132,7 +131,7 @@ namespace Punto_de_ventas.modelsclass
 
         public void borrarCliente(int idCliente, int idRegistro)
         {
-            ReportesClientes.Where(r => r.IdRegistro == idRegistro).Delete();
+            /*ReportesClientes.Where(r => r.IdRegistro == idRegistro).Delete();*/
             Cliente.Where(c => c.IdPersonal == idCliente).Delete();
         }
 
